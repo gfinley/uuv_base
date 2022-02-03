@@ -1,0 +1,9 @@
+[0.027s] Invoking command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node
+[0.040s] CMake Error at CMakeLists.txt:3 (catkin_python_setup):
+[0.041s]   Unknown CMake command "catkin_python_setup".
+[0.041s] 
+[0.041s] 
+[0.041s] -- Configuring incomplete, errors occurred!
+[0.041s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeOutput.log".
+[0.041s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeError.log".
+[0.043s] Invoked command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node' returned '1': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node

@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000931] (http_node) JobQueued: {'identifier': 'http_node', 'dependencies': OrderedDict()}
+[0.000999] (http_node) JobStarted: {'identifier': 'http_node'}
+[0.023773] (http_node) JobProgress: {'identifier': 'http_node', 'progress': 'cmake'}
+[0.024350] (http_node) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/environment/robot_ws/src/http_node', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node'], 'cwd': '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,15206,1'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('SSH_CLIENT', '34.218.119.34 26827 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '5'), ('OLDPWD', '/home/ubuntu/environment'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'root'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'root'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.6.6'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.6.6/.irbrc'), ('XDG_SESSION_ID', '355'), ('TERM', 'xterm-256color'), ('PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/opt/ros/melodic/bin:/usr/local/rvm/gems/ruby-2.6.6/bin:/usr/local/rvm/gems/ruby-2.6.6@global/bin:/usr/local/rvm/rubies/ruby-2.6.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.6.6'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '34.223.54.95'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.6.6'), ('C9_PID', '69a3ce3ce7ff40a2b923b136a841004e'), ('rvm_version', '1.29.12 (latest)'), ('C9_PROJECT', 'Clean_Fusion'), ('PWD', '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.6.6:/usr/local/rvm/gems/ruby-2.6.6@global'), ('SSH_CONNECTION', '34.218.119.34 26827 172.31.55.27 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%1'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.6.6/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[0.042329] (http_node) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/devel\n'}
+[0.042529] (http_node) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic\n'}
+[0.042677] (http_node) StdoutLine: {'line': b'-- This workspace overlays: /opt/ros/melodic\n'}
+[0.055911] (http_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") \n'}
+[0.056096] (http_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[0.056164] (http_node) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[0.056392] (http_node) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[0.099759] (-) TimerEvent: {}
+[0.192421] (http_node) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[0.192616] (http_node) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[0.194411] (http_node) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/test_results\n'}
+[0.199823] (-) TimerEvent: {}
+[0.210452] (http_node) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[0.210691] (http_node) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[0.223179] (http_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") \n'}
+[0.224164] (http_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.292501] (http_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.293010] (http_node) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[0.299930] (-) TimerEvent: {}
+[0.361787] (http_node) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[0.362077] (http_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.400056] (-) TimerEvent: {}
+[0.416246] (http_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.416549] (http_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.480174] (http_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.481399] (http_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.485411] (http_node) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[0.500127] (-) TimerEvent: {}
+[0.523103] (http_node) StdoutLine: {'line': b'-- catkin 0.7.29\n'}
+[0.523298] (http_node) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[0.600239] (-) TimerEvent: {}
+[0.677025] (http_node) StdoutLine: {'line': b'-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy\n'}
+[0.700336] (-) TimerEvent: {}
+[0.717664] (http_node) StderrLine: {'line': b'CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_install_python.cmake:20 (message):\n'}
+[0.717883] (http_node) StderrLine: {'line': b'  catkin_install_python() called without required DESTINATION argument.\n'}
+[0.717951] (http_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.718009] (http_node) StderrLine: {'line': b'  CMakeLists.txt:20 (catkin_install_python)\n'}
+[0.718066] (http_node) StderrLine: {'line': b'\n'}
+[0.718121] (http_node) StderrLine: {'line': b'\n'}
+[0.718500] (http_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.718570] (http_node) StdoutLine: {'line': b'See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeOutput.log".\n'}
+[0.718628] (http_node) StdoutLine: {'line': b'See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeError.log".\n'}
+[0.722043] (http_node) CommandEnded: {'returncode': 1}
+[0.762714] (http_node) JobEnded: {'identifier': 'http_node', 'rc': 1}
+[0.773307] (-) EventReactorShutdown: {}

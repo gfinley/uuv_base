@@ -1,0 +1,27 @@
+[0.027s] Invoking command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node
+[0.041s] -- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/devel
+[0.041s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[0.041s] -- This workspace overlays: /opt/ros/melodic
+[0.054s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.055s] -- Using Debian Python package layout
+[0.055s] -- Using empy: /usr/bin/empy
+[0.191s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.191s] -- Call enable_testing()
+[0.191s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/test_results
+[0.207s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.207s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.219s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.224s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.261s] -- catkin 0.7.29
+[0.261s] -- BUILD_SHARED_LIBS is on
+[0.691s] CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_install_python.cmake:20 (message):
+[0.691s]   catkin_install_python() called without required DESTINATION argument.
+[0.691s] Call Stack (most recent call first):
+[0.691s]   CMakeLists.txt:18 (catkin_install_python)
+[0.691s] 
+[0.691s] 
+[0.692s] -- Configuring incomplete, errors occurred!
+[0.692s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeOutput.log".
+[0.692s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeError.log".
+[0.696s] Invoked command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node' returned '1': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node

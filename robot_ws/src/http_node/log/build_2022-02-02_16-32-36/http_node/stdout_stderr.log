@@ -1,0 +1,7 @@
+CMake Error at CMakeLists.txt:5 (catkin_package):
+  Unknown CMake command "catkin_package".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeOutput.log".
+See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeError.log".

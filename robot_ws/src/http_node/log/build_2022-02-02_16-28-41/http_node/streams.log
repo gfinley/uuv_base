@@ -1,0 +1,29 @@
+[0.027s] Invoking command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node
+[0.042s] -- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/devel
+[0.042s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[0.042s] -- This workspace overlays: /opt/ros/melodic
+[0.056s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.056s] -- Using Debian Python package layout
+[0.056s] -- Using empy: /usr/bin/empy
+[0.193s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.193s] -- Call enable_testing()
+[0.193s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/test_results
+[0.209s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.209s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.222s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.227s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.264s] -- catkin 0.7.29
+[0.264s] -- BUILD_SHARED_LIBS is on
+[0.663s] CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:196 (message):
+[0.663s]   catkin_package() the catkin package 'rospy' has been find_package()-ed but
+[0.663s]   is not listed as a build dependency in the package.xml
+[0.663s] Call Stack (most recent call first):
+[0.663s]   /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+[0.663s]   CMakeLists.txt:16 (catkin_package)
+[0.663s] 
+[0.663s] 
+[0.664s] -- Configuring incomplete, errors occurred!
+[0.664s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeOutput.log".
+[0.664s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeError.log".
+[0.667s] Invoked command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node' returned '1': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node

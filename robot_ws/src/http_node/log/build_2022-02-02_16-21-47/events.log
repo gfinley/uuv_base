@@ -1,0 +1,38 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (http_node) JobQueued: {'identifier': 'http_node', 'dependencies': OrderedDict()}
+[0.000750] (http_node) JobStarted: {'identifier': 'http_node'}
+[0.024463] (http_node) JobProgress: {'identifier': 'http_node', 'progress': 'cmake'}
+[0.024984] (http_node) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/environment/robot_ws/src/http_node', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node'], 'cwd': '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,15206,1'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('SSH_CLIENT', '34.218.119.34 26827 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '5'), ('OLDPWD', '/home/ubuntu/environment'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'root'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'root'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.6.6'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.6.6/.irbrc'), ('XDG_SESSION_ID', '355'), ('TERM', 'xterm-256color'), ('PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/opt/ros/melodic/bin:/usr/local/rvm/gems/ruby-2.6.6/bin:/usr/local/rvm/gems/ruby-2.6.6@global/bin:/usr/local/rvm/rubies/ruby-2.6.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.6.6'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '34.223.54.95'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.6.6'), ('C9_PID', '69a3ce3ce7ff40a2b923b136a841004e'), ('rvm_version', '1.29.12 (latest)'), ('C9_PROJECT', 'Clean_Fusion'), ('PWD', '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.6.6:/usr/local/rvm/gems/ruby-2.6.6@global'), ('SSH_CONNECTION', '34.218.119.34 26827 172.31.55.27 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%1'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.6.6/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[0.086939] (http_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.099718] (-) TimerEvent: {}
+[0.144089] (http_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.148428] (http_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199807] (-) TimerEvent: {}
+[0.211392] (http_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.212043] (http_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.275257] (http_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.283888] (http_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299914] (-) TimerEvent: {}
+[0.400250] (-) TimerEvent: {}
+[0.477056] (http_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.480100] (http_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500360] (-) TimerEvent: {}
+[0.558194] (http_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.558888] (http_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600485] (-) TimerEvent: {}
+[0.637426] (http_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.645656] (http_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.700576] (-) TimerEvent: {}
+[0.800883] (-) TimerEvent: {}
+[0.901210] (-) TimerEvent: {}
+[0.977989] (http_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.978649] (http_node) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (catkin_install_python):\n'}
+[0.978791] (http_node) StderrLine: {'line': b'  Unknown CMake command "catkin_install_python".\n'}
+[0.978855] (http_node) StderrLine: {'line': b'\n'}
+[0.978913] (http_node) StderrLine: {'line': b'\n'}
+[0.979093] (http_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.979162] (http_node) StdoutLine: {'line': b'See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeOutput.log".\n'}
+[0.981417] (http_node) CommandEnded: {'returncode': 1}
+[1.002618] (-) TimerEvent: {}
+[1.021095] (http_node) JobEnded: {'identifier': 'http_node', 'rc': 1}
+[1.031711] (-) EventReactorShutdown: {}

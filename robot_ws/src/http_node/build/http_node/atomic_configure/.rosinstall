@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/devel/setup.sh

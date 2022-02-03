@@ -1,0 +1,7 @@
+set(http_node_SETUP_PY_SETUP_MODULE "distutils.core")
+set(http_node_SETUP_PY_VERSION "0.0.0")
+set(http_node_SETUP_PY_SCRIPTS "")
+set(http_node_SETUP_PY_PACKAGES "http_node")
+set(http_node_SETUP_PY_PACKAGE_DIRS "src/http_node")
+set(http_node_SETUP_PY_MODULES "")
+set(http_node_SETUP_PY_MODULE_DIRS "")

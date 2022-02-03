@@ -1,0 +1,54 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+Traceback (most recent call last):
+  File "/opt/ros/melodic/share/catkin/cmake/interrogate_setup_dot_py.py", line 255, in <module>
+    main()
+  File "/opt/ros/melodic/share/catkin/cmake/interrogate_setup_dot_py.py", line 248, in main
+    runpy.run_path(args.setupfile_path)
+  File "/usr/lib/python2.7/runpy.py", line 252, in run_path
+    return _run_module_code(code, init_globals, run_name, path_name)
+  File "/usr/lib/python2.7/runpy.py", line 82, in _run_module_code
+    mod_name, mod_fname, mod_loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/ubuntu/environment/robot_ws/src/http_node/setup.py", line 10, in <module>
+    package_dir={'': 'src'}
+  File "/usr/lib/python2.7/dist-packages/catkin_pkg/python_setup.py", line 74, in generate_distutils_setup
+    package = parse_package(package_xml_path)
+  File "/usr/lib/python2.7/dist-packages/catkin_pkg/package.py", line 570, in parse_package
+    return parse_package_string(xml, filename, warnings=warnings)
+  File "/usr/lib/python2.7/dist-packages/catkin_pkg/package.py", line 771, in parse_package_string
+    raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+catkin_pkg.package.InvalidPackage: Error(s) in package './package.xml':
+Error(s):
+- The generic dependency on 'rospy' is redundant with: exec_depend
+CMake Error at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+  
+  execute_process(/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/catkin_generated/env_cached.sh
+  "/usr/bin/python2"
+  "/opt/ros/melodic/share/catkin/cmake/interrogate_setup_dot_py.py"
+  "http_node" "/home/ubuntu/environment/robot_ws/src/http_node/setup.py"
+  "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/catkin_generated/setup_py_interrogation.cmake")
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkin_python_setup.cmake:46 (safe_execute_process)
+  CMakeLists.txt:8 (catkin_python_setup)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeOutput.log".
+See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeError.log".

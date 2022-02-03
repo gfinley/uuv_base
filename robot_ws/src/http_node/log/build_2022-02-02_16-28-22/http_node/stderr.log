@@ -1,0 +1,6 @@
+CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_install_python.cmake:20 (message):
+  catkin_install_python() called without required DESTINATION argument.
+Call Stack (most recent call first):
+  CMakeLists.txt:18 (catkin_install_python)
+
+

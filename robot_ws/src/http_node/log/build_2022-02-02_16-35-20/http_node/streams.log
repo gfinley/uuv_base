@@ -1,0 +1,13 @@
+[0.027s] Invoking command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node
+[0.041s] CMake Error at CMakeLists.txt:15 (install):
+[0.041s]   install DIRECTORY given no DESTINATION!
+[0.041s] 
+[0.042s] 
+[0.042s] CMake Error at CMakeLists.txt:100 (catkin_package):
+[0.042s]   Unknown CMake command "catkin_package".
+[0.042s] 
+[0.042s] 
+[0.042s] -- Configuring incomplete, errors occurred!
+[0.042s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeOutput.log".
+[0.042s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeError.log".
+[0.043s] Invoked command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node' returned '1': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node

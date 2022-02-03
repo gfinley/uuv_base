@@ -1,0 +1,4 @@
+<launch>
+  <arg name="server_port" value="$(optenv SERVER_PORT 8080)"/>
+  <node pkg="http_node" type="webserver.py" name="webserver" output="screen" required="true" args="$(arg server_port)" />
+</launch>

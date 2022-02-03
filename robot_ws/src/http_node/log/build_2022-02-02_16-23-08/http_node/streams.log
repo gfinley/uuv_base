@@ -1,0 +1,37 @@
+[0.027s] Invoking command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node
+[0.041s] -- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/devel
+[0.042s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[0.042s] -- This workspace overlays: /opt/ros/melodic
+[0.055s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.055s] -- Using Debian Python package layout
+[0.055s] -- Using empy: /usr/bin/empy
+[0.192s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.192s] -- Call enable_testing()
+[0.194s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/robot_ws/src/http_node/build/http_node/test_results
+[0.210s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.210s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.222s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.223s] -- Looking for pthread.h
+[0.292s] -- Looking for pthread.h - found
+[0.292s] -- Looking for pthread_create
+[0.361s] -- Looking for pthread_create - not found
+[0.361s] -- Looking for pthread_create in pthreads
+[0.415s] -- Looking for pthread_create in pthreads - not found
+[0.416s] -- Looking for pthread_create in pthread
+[0.479s] -- Looking for pthread_create in pthread - found
+[0.481s] -- Found Threads: TRUE  
+[0.485s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.522s] -- catkin 0.7.29
+[0.522s] -- BUILD_SHARED_LIBS is on
+[0.676s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.717s] CMake Error at /opt/ros/melodic/share/catkin/cmake/catkin_install_python.cmake:20 (message):
+[0.717s]   catkin_install_python() called without required DESTINATION argument.
+[0.717s] Call Stack (most recent call first):
+[0.717s]   CMakeLists.txt:20 (catkin_install_python)
+[0.717s] 
+[0.717s] 
+[0.718s] -- Configuring incomplete, errors occurred!
+[0.718s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeOutput.log".
+[0.718s] See also "/home/ubuntu/environment/robot_ws/src/http_node/build/http_node/CMakeFiles/CMakeError.log".
+[0.721s] Invoked command in '/home/ubuntu/environment/robot_ws/src/http_node/build/http_node' returned '1': /usr/bin/cmake /home/ubuntu/environment/robot_ws/src/http_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/robot_ws/src/http_node/install/http_node

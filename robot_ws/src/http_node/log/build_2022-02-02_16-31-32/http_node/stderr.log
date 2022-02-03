@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:6 (catkin_python_setup):
+  Unknown CMake command "catkin_python_setup".
+
+
